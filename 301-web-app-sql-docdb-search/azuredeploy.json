@@ -6,7 +6,7 @@
       "type": "string",
       "minLength": 3,
       "metadata": {
-        "description": "The DocumentDB database account name."
+        "description": "The DocumentDB database account name"
       }
     },
     "consistencyLevel": {
@@ -19,7 +19,7 @@
         "BoundedStaleness"
       ],
       "metadata": {
-        "description": "The DocumentDB default consistency level for this account."
+        "description": "The DocumentDB default consistency level for this account"
       }
     },
     "maxStalenessPrefix": {
@@ -28,7 +28,7 @@
       "maxValue": 1000,
       "defaultValue": 10,
       "metadata": {
-        "description": "When consistencyLevel is set to BoundedStaleness, then this value is required, otherwise it can be ignored."
+        "description": "When consistencyLevel is set to BoundedStaleness, then this value is required, otherwise it can be ignored"
       }
     },
     "maxIntervalInSeconds": {
@@ -37,14 +37,14 @@
       "maxValue": 600,
       "defaultValue": 5,
       "metadata": {
-        "description": "When consistencyLevel is set to BoundedStaleness, then this value is required, otherwise it can be ignored."
+        "description": "When consistencyLevel is set to BoundedStaleness, then this value is required, otherwise it can be ignored"
       }
     },
     "sqlServerAdminLogin": {
       "type": "string",
       "minLength": 1,
       "metadata": {
-        "description": "The SQL server admin username."
+        "description": "The SQL server admin username"
       }
     },
     "sqlServerAdminLoginPassword": {
@@ -145,7 +145,7 @@
     "azureSearchname": {
       "type": "string",
       "metadata": {
-        "description": "The azure search instance name"
+        "description": "The Azure Search instance name"
       }
     },
     "azureSearchSku": {
@@ -157,7 +157,7 @@
         "standard2"
       ],
       "metadata": {
-        "description": "The azure search instance tier."
+        "description": "The Azure Search instance tier"
       }
     },
     "azureSearchReplicaCount": {
